@@ -1,0 +1,130 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(Gradient.png);
+    background-size: cover;
+}
+header{
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.navbar{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+}
+
+.navbar .logo{
+    color: rgb(147, 94, 237);
+    font-weight: bold;
+}
+
+.navbar a{
+    color: white;
+}
+
+a:hover{
+ color: rgb(147, 94, 237);
+    ;
+}
+.navbar .logo{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navbar .nav-links ul{
+    display: flex;   
+
+}
+
+.navbar .nav-links ul li{
+    margin: 0 35px;
+}
+
+.navbar .nav-links ul li.active a{
+    color: rgb(147, 94, 237);
+    font-weight: 600;
+}
+
+.container{
+    margin: auto;
+    border: 3px solid rgb(147, 94, 237);
+    border-radius: 30px;
+    width: 450px;
+    height: 490px;
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 100px;
+    position: absolute;
+    top: 50px;
+    left: 35%;
+}
+
+.info{
+    width: 300px;
+    height: 25px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    border: 2px solid rgb(147, 94, 237);
+
+}
+
+::placeholder{
+    color: rgb(147, 94, 237);
+    font-family: 'Poppins', sans-serif;
+
+}
+.quest{
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.demande{ 
+    color: white;
+    font-size: large;
+}
+
+.long{
+    width: 300px;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    border: 2px solid rgb(147, 94, 237);
+
+}
+
+button{
+    background-color: rgb(147, 94, 237);
+    color: white;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: medium;
+}
+
+.pied{
+    text-align: center;
+    height: 80px;
+    width: 1200;
+}
+
+.colo{
+    color: rgb(147, 94, 237);
+}
+
+.auteur{
+    color: white;
+}
